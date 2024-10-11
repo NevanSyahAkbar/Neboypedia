@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neboypedia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/iconweb.png" alt="Logo" style="width: 80px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cek Transaksi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Neboypedia</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light me-2">Masuk</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-warning btn-outline-dark me-2">Daftar</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+    
+        <!-- Carousel inner items -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="assets/giff2.gif" class="d-block w-100" alt="GIF 1" width="425" height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <img src="assets/mlbb2.jpeg" class="aspirant" width="425" height="500px">
+                </div>
+            </div>
+    
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="assets/giff2.gif" class="d-block w-100" alt="GIF 2" width="425" height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <img src="assets/topup.jpeg" class="welcome" width="425" height="500px">
+                </div>
+            </div>
+    
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="assets/giff2.gif" class="d-block w-100" alt="GIF 3" width="425" height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <img src="assets/valoran.jpeg" class="welcome" width="425" height="500px">
+                </div>
+            </div>
+    
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <img src="assets/giff2.gif" class="d-block w-100" alt="GIF 4" width="425" height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <img src="assets/bhok.jpeg" class="welcome" width="425" height="500px">
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <!-- Section Populer Sekarang -->
+<section class="popular-section py-5">
+    <div class="container">
+        <div class="section-title text-center mb-4">
+            <h3>🔥 POPULER SEKARANG!</h3>
+            <p>Berikut adalah beberapa produk yang paling populer saat ini.</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 popular-card">   
+                    <img src="assets/ml.jpg" class="card-img-top" alt="Mobile Legends">
+                    <div class="card-body text-warning">
+                        <h5 class="card-title">MobileLegends</h5>
+                        <p class="card-text">Moonton</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 popular-card">
+                    <img src="assets/joki.jpeg" class="card-img-top" alt="Joki Rank Mobile Legends">
+                    <div class="card-body  text-warning">
+                        <h5 class="card-title">Joki Rank</h5>
+                        <p class="card-text">NeboyPedia</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 popular-card">
+                    <img src="assets/epep.jpeg" class="card-img-top" alt="Free Fire">
+                    <div class="card-body  text-warning">
+                        <h5 class="card-title">Free Fire</h5>
+                        <p class="card-text">Garena</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="card h-100 popular-card">
+                    <img src="assets/pubg.jpeg" class="card-img-top" alt="PUBG Mobile">
+                    <div class="card-body text-warning">
+                        <h5 class="card-title">PUBG Mobile</h5>
+                        <p class="card-text">Tencent Games</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="card h-100 popular-card">
+                    <img src="assets/hok.jpeg" class="card-img-top" alt="Honor Of Kings">
+                    <div class="card-body  text-warning">
+                        <h5 class="card-title">HoK</h5>
+                        <p class="card-text">Level Infinite</p>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="card h-100 popular-card">
+                    <img src="assets/valoo.jpg" class="card-img-top" alt="Valorant">
+                    <div class="card-body  text-warning">
+                        <h5 class="card-title">Valorant</h5>
+                        <p class="card-text">Riot Games</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer tengah-->
+<section class="footer-tengah">
+<div class="container">
+    <div class="nav">
+        <button>Top Up Games</button>
+        <button>Specialist Mobile Legends</button>
+        <button>Specialist Honor of Kings</button>
+        <button>Voucher</button>
+        <button>Pulsa, Data & Tagihan</button>
+        <button>Entertainment</button>
+    </div>
+
+    <div class="game-cards">
+        <div class="game-card">
+            <img src="assets/fml.jpeg" alt="Mobile Legends">
+            <p>Mobile legend</p>
+        </div>
+        <div class="game-card">
+            <img src="assets/footerpp.jpeg" alt="Free Fire">
+            <p>Free Fire</p>
+        </div>
+        <div class="game-card">
+            <img src="assets/fvalo.jpeg" alt="Free Fire Max">
+            <p>Valorant</p>
+        </div>
+        <div class="game-card">
+            <img src="assets/fpubg.jpeg" alt="PUBG Mobile">
+            <p>PUBG Mobile</p>
+        </div>
+        <div class="game-card">
+            <img src="assets/fhok.jpeg" alt="Honor of Kings">
+            <p>Honor of Kings</p>
+        </div>
+        <div class="game-card">
+            <img src="assets/fgenshin.jpeg" alt="Honor of Kings">
+            <p>Genshin Impact</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--logo bawah-->
+<div class="wing-container">
+    <div class="wing-left"></div>
+    <div class="wing-right"></div>
+    <div class="logo">
+        <img src="assets/iconweb.png" alt="Logo">
+    </div>
+</div>
+    <div class="description">
+        <p>Neboypedia adalah Platform Top Up Game Termurah diKonoha. Penuhi Kebutuhan Gaming Mu Bersama NeboyPedia. Store Specialist Game Mobile No.1 Murah, Aman, Terpercaya Dan Legal 100% (Open jam kerja). NeboyPedia Sahabat Para Gamers Kami berdedikasi untuk menyediakan layanan terbaik dan terus menerus inovatif untuk memenuhi kebutuhan gamers. Jangan lewatkan kesempatan untuk mengikuti kami di sosial media dan tetap update dengan informasi terbaru, tips, trik, dan promo-promo menarik lainnya. Jadilah bagian dari komunitas gamers terbesar dan terpercaya bersama NeboyPedia! Jangan Lupa Follow Sosial Media Kita Dapatkan info dan promo menarik yang akan terus mengalir untuk menambah kegembiraan dalam setiap game yang Anda mainkan.</p>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Peta Situs</h3>
+                <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Masuk</a></li>
+                <li><a href="#">Daftar</a></li>
+                <li><a href="#">Cek Transaksi</a></li>
+                <li><a href="#">Hubungi Kami</a></li>
+                <li><a href="#">Ulasan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Dukungan</h3>
+                <ul>
+                    <li><a href="#">WhatsApp</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legalitas</h3>
+                <ul>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <ul>
+                <li><a href="#">Tiktok neboykun</a></li>
+                <li><a href="#">Youtube Neboy</a></li>
+                <li><a href="#">Instagram nevsyah</a></li>
+                    <li><a href="#">Discord neboy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Neboypedia. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

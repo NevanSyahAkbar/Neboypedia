@@ -1,0 +1,244 @@
+/* Navbar styling */
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffaa00;
+    margin-right: 10px;
+
+}
+.navbar-nav .btn-outline-light,
+.navbar-nav .btn-warning {
+    padding: 5px 20px;
+}
+
+.navbar-nav .btn-warning {
+    background-color: #ffaa00;
+    border-color: #ffaa00;
+}
+
+/* Carousel styling */
+
+.carousel-item {
+    height: 400px;
+    background-color: hsl(188, 76%, 67%);
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item img {
+    width: 100%; /* Akan memenuhi seluruh lebar dari carousel */
+    max-width: 1500px; /* Ukuran maksimum gambar */
+    height: auto; /* Biarkan tinggi mengikuti lebar */
+}
+
+.carousel-caption {
+    background: rgb(55, 55, 55);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #00b3ff;
+}
+
+footer p {
+    margin: 0;
+}
+/* Section Title */
+.section-title h3 {
+    font-weight: bold;
+    color: #ffc822; /* Warna api (orange) */
+}
+
+.section-title p {
+    color: #ffffffe6;
+    font-size: 1rem;
+}
+
+/* Cards Styling */
+.popular-card img {
+    object-fit: cover;
+    height: 200px;
+    filter:grayscale(80%); /* Membuat gambar menjadi grayscale */
+}
+
+.popular-card .card-body {
+    background: #3c3b5c;
+    border-radius: 0px;
+}
+.popular-card .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.popular-card .card-text {
+    font-size: 0.8rem;
+}
+/* ppp*/
+.wing-container {
+    position: relative;
+    height: 200px;
+    background: radial-gradient(circle at bottom, #6661ff00, #2c2b45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wing-left, .wing-right {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 2px solid #4c0082;
+    clip-path: polygon(0 0, 40% 60%, 0 100%, 100% 100%);
+}
+
+.wing-left {
+    transform: rotate(15deg) translateX(-150px);
+}
+
+.wing-right {
+    transform: rotate(-15deg) translateX(150px);
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    text-align: center;
+}
+
+.logo img {
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.description p {
+    margin-bottom: 10px;
+}
+/* footer tengah*/
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav button {
+    background-color: #3c3b5c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav button:hover {
+    background-color: #5a0084;
+    color: black;
+}
+
+.game-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background-color: #3c3b5c;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-card p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #f6df49;
+}
+/* General */
+body {
+    background-color: #302c33; /* Latar belakang yang gelap */
+    color: white;
+}
+footer {
+    background-color: #00000000;
+    padding: 100px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    width: 80%;
+}
+
+.footer-section h3 {
+    color: #f5c623;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    height: inherit;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-section ul li a:hover {
+    color: #f5c623;
+}
+.popular-section {
+    background-color: #353940;
+    border-radius: 20px;
+    padding: 300px;
+}
